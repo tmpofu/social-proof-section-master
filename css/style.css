@@ -177,7 +177,7 @@ body {
   }
 .row .left-col {
   
-  margin-left:none;
+  margin-left: 0 !important;
 }
 
   .row .left-col h1 {

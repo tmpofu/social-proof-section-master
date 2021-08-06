@@ -175,6 +175,11 @@ body {
         -ms-flex-align: center;
             align-items: center;
   }
+row .left-col {
+  
+  margin-left:none;
+}
+
   .row .left-col h1 {
     text-align: center;
   }

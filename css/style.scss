@@ -9,7 +9,7 @@
             font-family: 'Spartan', sans-serif;
             font-size: 15px;
             background: $white;
-            background-image: url('./images/bg-pattern-top-desktop.svg'), url('./images/bg-pattern-bottom-desktop.svg');
+            background-image: url('../images/bg-pattern-top-desktop.svg'), url('../images/bg-pattern-bottom-desktop.svg');
             background-repeat: no-repeat;
             background-position: left -55px top -9px, right 9em;
         }
@@ -123,7 +123,7 @@
                 font-family: 'Spartan', sans-serif;
                 font-size: 15px;
                 background: $white;
-                background-image: url('/images/bg-pattern-top-desktop.svg'), url('/images/bg-pattern-bottom-desktop.svg');
+                background-image: url('../images/bg-pattern-top-desktop.svg'), url('../images/bg-pattern-bottom-desktop.svg');
                 background-repeat: no-repeat;
                 background-position: left -55px top -9px, right 50em;
             }

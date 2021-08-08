@@ -154,7 +154,8 @@
                         margin-top: -5px !important;
                     }
                 }
-                .first-section {
+                .first-section,
+                .third-section {
                     display: flex;
                     flex-direction: column;
                     justify-content: center;
@@ -167,14 +168,6 @@
                     flex-direction: column;
                     justify-content: center;
                     align-items: center;
-                    margin-left: 0 !important;
-                }
-                .third-section {
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: center;
-                    align-items: center;
-                    margin-right: 0 !important;
                     margin-left: 0 !important;
                 }
             }

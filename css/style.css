@@ -196,7 +196,8 @@ body {
   .right-col div p {
     margin-top: -5px !important;
   }
-  .right-col .first-section {
+  .right-col .first-section,
+  .right-col .third-section {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -227,23 +228,6 @@ body {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    margin-left: 0 !important;
-  }
-  .right-col .third-section {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    margin-right: 0 !important;
     margin-left: 0 !important;
   }
 }

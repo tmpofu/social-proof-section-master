@@ -38,7 +38,7 @@
             .right-col {
                 margin-top: 30px;
                 div {
-                    display: block ruby;
+                    display: flex;
                     background: $light-grayish-magenta;
                     border-radius: 7px;
                     padding: 5px 25px;
@@ -53,7 +53,7 @@
                         color: $very-dark-magenta;
                         font-weight: 700;
                         padding: 0px 22px;
-                        margin-top: -15px;
+                        margin-top: 8px;
                     }
                 }
                 .first-section {
@@ -129,6 +129,9 @@
                 background-position: left -55px top -9px, right 50em;
             }
             .row {
+                .card {
+                    margin-right: 0!important;
+                }
                 width: 375px;
                 display: flex;
                 justify-content: center;
@@ -145,14 +148,32 @@
                 }
             }
             .right-col {
+                width: 375px;
+                div {
+                    p {
+                        margin-top: -5px !important;
+                    }
+                }
                 .first-section {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
                     margin-left: 0 !important;
                     margin-right: 0 !important;
                 }
                 .second-section {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
                     margin-left: 0 !important;
                 }
                 .third-section {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
                     margin-right: 0 !important;
                     margin-left: 0 !important;
                 }

@@ -175,9 +175,7 @@ body {
         -ms-flex-align: center;
             align-items: center;
   }
-.row .left-col {
-  
-  margin-left: 0 !important;
+
 }
 
   .row .left-col h1 {

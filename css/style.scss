@@ -53,6 +53,7 @@
                         color: $very-dark-magenta;
                         font-weight: 700;
                         padding: 0px 22px;
+                        margin-top: -15px;
                     }
                 }
                 .first-section {
@@ -134,7 +135,7 @@
                 flex-direction: column;
                 align-items: center;
                 .left-col {
-                    margin-left: none;
+                    margin-left: 0 !important;
                     h1 {
                         text-align: center;
                     }

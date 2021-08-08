@@ -11,7 +11,7 @@ body {
   font-family: 'Spartan', sans-serif;
   font-size: 15px;
   background: white;
-  background-image: url("/images/bg-pattern-top-desktop.svg"), url("/images/bg-pattern-bottom-desktop.svg");
+  background-image: url("../images/bg-pattern-top-desktop.svg"), url("../images/bg-pattern-bottom-desktop.svg");
   background-repeat: no-repeat;
   background-position: left -55px top -9px, right 9em;
 }
@@ -69,6 +69,7 @@ body {
   color: #502050;
   font-weight: 700;
   padding: 0px 22px;
+  margin-top: -15px;
 }
 
 .row .right-col .first-section {
@@ -155,7 +156,7 @@ body {
     font-family: 'Spartan', sans-serif;
     font-size: 15px;
     background: white;
-    background-image: url("/images/bg-pattern-top-desktop.svg"), url("/images/bg-pattern-bottom-desktop.svg");
+    background-image: url("../images/bg-pattern-top-desktop.svg"), url("../images/bg-pattern-bottom-desktop.svg");
     background-repeat: no-repeat;
     background-position: left -55px top -9px, right 50em;
   }
@@ -174,6 +175,9 @@ body {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+  }
+  .row .left-col {
+    margin-left: 0 !important;
   }
   .row .left-col h1 {
     text-align: center;
